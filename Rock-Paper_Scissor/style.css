@@ -1,0 +1,73 @@
+body {
+    /* margin: 0; */
+    min-height: 100vh;
+    background: linear-gradient(to left bottom, rgb(0, 0, 0), rgb(70, 70, 70));
+    color: #fff;
+    font-family: Arial;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .container {
+    margin-top: 150px;
+    border: 2px solid gray;
+    padding: 100px;
+    border-radius: 50px;
+    background: linear-gradient(to left bottom, rgb(0, 0, 0), rgb(70, 70, 70));
+  }
+
+  .title {
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .move-icon {
+    height: 100px;
+  }
+
+  .move-button {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin-right: 40px;
+    cursor: pointer;
+  }
+
+  .result {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px;
+  }
+
+  .score {
+    margin-top: 60px;
+  }
+
+  .reset-score-button {
+    background-color: transparent;
+    border: none;
+    padding: 15px 30px;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: Tahoma, sans-serif;
+    border: 1px solid white;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  .reset-score-button:hover {
+    background-color: rgba(248, 191, 3, 0.973);
+    color: black;
+    border: none;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .3);
+    transition: all 300ms ease;
+  }
+
+  .reset-score-button:active {
+    transform: scale(0.96);
+}
