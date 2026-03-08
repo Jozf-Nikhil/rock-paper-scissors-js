@@ -14,7 +14,7 @@ body {
   margin-bottom: 80px;
   /* border: 2px solid gray; */
   padding: 100px;
-  /* border-radius: 50px; */
+  border-radius: 50px;
   background: linear-gradient(to left bottom, rgb(0, 0, 0), rgb(70, 70, 70));
 }
 
@@ -175,5 +175,6 @@ body {
     font-size: 13px;
   }
 }
+
 
 
